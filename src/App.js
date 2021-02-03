@@ -1,11 +1,14 @@
 import "./App.css";
-
-function App() {
-  return (
-    <div>
-      Hello from <a href="https://www.lereacteur.io">Le Reacteur !</a>
-    </div>
-  );
-}
-
+import Header from "./Header";
+import Counter from "./Counter";
+import Footer from "./Footer";
+const App = () => {
+   return (
+      <>
+         <Header />
+         <Counter />
+         <Footer />
+      </>
+   );
+};
 export default App;

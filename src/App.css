@@ -1,1 +1,73 @@
 /* Other rules */
+
+:root {
+   --purlple: #5c48d3;
+}
+* {
+   font-family: "Montserrat", sans-serif;
+}
+.container {
+   width: 80%;
+   margin: 0 auto;
+}
+header {
+   height: 50px;
+   align-items: center;
+}
+h1 {
+   padding: 15px;
+   font-size: 20px;
+}
+.content {
+   margin: 0 auto;
+
+   width: 50vh;
+   height: 80vh;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+}
+.content1 {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.counter {
+   height: 150px;
+   width: 150px;
+   background-color: var(--purlple);
+   text-align: center;
+   color: #fff;
+   font-size: 96px;
+   border-radius: 10%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.reset {
+   height: 50px;
+   width: 150px;
+   background-color: var(--purlple);
+   text-align: center;
+   color: #fff;
+   font-size: 25px;
+   border-radius: 8%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 50px;
+}
+
+button {
+   background-color: #fff;
+   border: 0px;
+   font-size: 50px;
+   align-items: center;
+}
+
+footer {
+   align-items: center;
+   text-align: center;
+}
